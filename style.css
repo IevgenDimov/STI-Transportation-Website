@@ -14,7 +14,7 @@ section {
   --Patua: "Patua One", cursive;
   --Lobster: "lobster", cursive;
   --light-black: #2a2a2aaf;
-  --bggradient: linear-gradient(to bottom, #444444, #2f90ff);
+  --bggradient: linear-gradient(to bottom, #222222, #2f90ff);
   --light-gray: rgba(255, 255, 255, 0.877);
 }
 
@@ -140,7 +140,7 @@ header .container .col-md-7 p {
   border-radius: 3px;
   text-align: left;
   padding: 7vmin 4vmin 17vmin 10vmin;
-  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.3);
   font-family: var(--Rubik);
   z-index: 1;
 }
@@ -160,7 +160,9 @@ header .container .col-md-7 p {
   color: rgba(0, 0, 0, 0.5);
 }
 
-/*  Section 2  */
+/* .section-2{
+  background-color: #2f90ff;
+} */
 
 .cover {
   width: 100%;
@@ -208,7 +210,7 @@ header .container .col-md-7 p {
   padding-top: 3.5vmin;
   margin: 1rem;
   border-radius: 0.5em;
-  box-shadow: 1px 2px 5px 0px rgba(81, 255, 0, 0.945);
+  box-shadow: 1px 2px 5px 0px rgba(17, 180, 255, 0.945);
 }
 
 .numbers {
@@ -217,7 +219,7 @@ header .container .col-md-7 p {
 
 .numbers .rect h1 {
   font-size: 5rem;
-  color: rgb(40, 190, 27);
+  color: #2f90ff;
 }
 
 .numbers .rect > p {
@@ -247,8 +249,8 @@ header .container .col-md-7 p {
 }
 
 .card:hover{
-  background-color: #4d9efa;
-  box-shadow: 3px 5px 12px 3px rgba(4, 89, 248, 0.445);
+  background-color: #2f90ff;
+  box-shadow: 3px 5px 12px 3px rgba(36, 112, 251, 0.445);
   
 }
 .cards .title {
@@ -262,11 +264,7 @@ header .container .col-md-7 p {
   color: var(--light-black);
 }
 
-.card-body .pricing {
-  background: rgba(208, 241, 241, 0.199);
-  border-top-right-radius: 170px;
-  border-top-left-radius: 170px;
-}
+
 
 .card-body .pricing > h1 {
   font-size: 10vmin;
@@ -278,7 +276,7 @@ header .container .col-md-7 p {
 .section-3 {
   height: 70vmin;
   margin-top: 15vmin;
-  background: var(--bggradient);
+  background-color:#2f90ff;
 }
 
 .section-3 .col-md-12 > h1 {
@@ -367,7 +365,7 @@ footer .input-group .input-group-text {
 }
 
 footer .column i {
-  color: #dd2476;
+  color: #2f90ff;
 }
 
 /* It is Adjacent sibling combinator */
@@ -454,6 +452,7 @@ footer .column i + i {
 
 #phone-number{
   font-size: large;
+  color: #2f90ff;
 }
 
 #card1:hover{
@@ -465,3 +464,24 @@ footer .column i + i {
 #card3:hover{
   font-size: 19px;
 }
+
+#job-review{
+  background-color: rgb(32, 32, 32);
+ 
+}
+#jobs{
+  background-color: rgb(32, 32, 32);
+}
+
+#footer-id{
+  background-color: rgb(32, 32, 32);
+}
+
+#proud{
+  background-color: rgb(32, 32, 32);
+}
+/* .card-body .pricing {
+  background: rgba(2, 255, 255, 0.199);
+  border-top-right-radius: 170px;
+  border-top-left-radius: 170px;
+} */
